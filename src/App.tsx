@@ -1,16 +1,17 @@
 import React from 'react';
+import DevFinder from './components/DevFinder';
 
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <div className='container'>
-        
-      </div>
-      
-    </div>
+   <div>
+    <DevFinder/>
+   </div>
   );
 }
 
 export default App;
+
+
+
