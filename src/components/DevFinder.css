@@ -8,11 +8,133 @@ body{
     font-family: 'Space Mono';
 }
 
+/* input[type=number] {
+    -moz-appearance: textfield;
+} */
+
+.d-flex{
+    font-display: flex;
+}
+/* .backgroundLight{
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F8FF;
+} */
+.backgroundDark{
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #141D2F;
+}
+.darkMode{
+    cursor:pointer;
+}
+.header{
+    height: 38px;
+    width: 730px;
+    margin-bottom: 35px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dark{
+    margin-right: 16px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: 2.5px;
+    color: #697C9A;
+}
+.light{
+    margin-right: 16px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: 2.5px;
+    color: #FFFFFF;
+}
+.devfinderLight{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    color: #222731;
+}
+.devFinderDark{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    color: #FFF;
+
+}
+.searchIcon{
+    height: 24px;
+    width: 24px;
+    margin-top: 24px;
+    margin-left: 32px;
+    position: absolute;
+    z-index: 1;
+}
+.searchFieldLight{
+    height: 69px;
+    width: 730px;
+    margin-left: -8px;
+    margin-bottom: 24px;
+    padding-right: 116px;
+    padding-left: 80px;
+    border-radius: 15px;
+    border: none;
+    box-shadow:0px 16px 30px -10px rgba(70, 96, 187, 0.198567) ;
+    background: #FEFEFE;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #4B6A9B;
+}
+.serchFieldDark{
+    height: 69px;
+    width: 730px;
+    margin-left: -8px;
+    margin-bottom: 24px;
+    padding-right: 116px;
+    padding-left: 80px;
+    border-radius: 15px;
+    border: none;
+    box-shadow:0px 16px 30px -10px rgba(70, 96, 187, 0.198567) ;
+    background: #1E2A47;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+
+}
+
 .searchButton{
+    margin-left: -116px;
     width: 106px;
     height: 50px;
     background-color: #0079FF;
     border: none;
+    border-radius: 10px;
+    font-family: 'Space Mono';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;

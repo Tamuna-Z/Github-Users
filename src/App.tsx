@@ -1,12 +1,12 @@
 import React from 'react';
-import DevFinder from './components/DevFinder';
+import DevFinderLight from './components/DevFinder';
 
 import './App.css';
 
 function App() {
   return (
    <div>
-    <DevFinder/>
+    <DevFinderLight/>
    </div>
   );
 }
