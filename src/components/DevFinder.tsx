@@ -1,11 +1,12 @@
 import "./DevFinder.css";
 import { useState, useEffect } from "react";
 import {FaMoon} from "react-icons/fa";
-// import {FiSearch}from "react-icons-fi";
 import{BsFillSunFill} from "react-icons/bs";
 import{FiSearch} from "react-icons/fi"
 import {MdLocationPin} from "react-icons/md"
 import{AiOutlineTwitter} from "react-icons/ai"
+import {BsLink45Deg} from 'react-icons/bs'
+import{HiBuildingOffice2} from "react-icons/hi2"
 
 
 
@@ -175,24 +176,40 @@ function DevFinder() {
                 }
             </div>
 
-            
+            <div>
+                {blog === "" ? 
+                <div className="d-flex">
+                    <BsLink45Deg color={darkModeB ? '#A4B4CC' : '#FFF'} className='link'/>
+                    <h1 className={darkModeB ? 'withoutAdditionalInfoLight' : 'withoutAdditionalInfoDark'}>Not Available</h1>
+                </div>
+                :
+                <div className="d-flex">
+                    <BsLink45Deg color={darkModeB ? '#4B6A9B' : '#FFF'} className='link'/>
+                    <h1 className={darkModeB ? 'additionalInfoLight' : 'additionalInfoDark'}>{blog}</h1>
+                </div>
+                }
+            </div>
+
+            <div>
+                {company === null ? 
+                <div className="d-flex">
+                    <HiBuildingOffice2 color={darkModeB ? '#A4B4CC' : '#FFF'} className='company'/>
+                    <h1 className={darkModeB ? 'withoutAdditionalInfoLight' : 'withoutAdditionalInfoDark'}>Not Available</h1>
+                </div>
+                :
+                <div className="d-flex">
+                    <HiBuildingOffice2 color={darkModeB ? '#4B6A9B' : '#FFF'} className='company'/>
+                    <h1 className={darkModeB ? 'additionalInfoLight' : 'additionalInfoDark'}>{company}</h1>
+                </div>
+                }
+            </div>
+
         </div>
         
     
     </div>
   );
 
-// return(
-//     <div>
-//           <input onChange={searchCheck} />
-//       <button onClick={searching} className="searchButton">
-//         search
-//       </button>
-//       <div>
-//         <img src={avatar} className="avatar" />
-//       </div>
-//     </div>
-// )
 }
 
 export default DevFinder;
