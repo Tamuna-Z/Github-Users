@@ -369,7 +369,93 @@ a{
 a:hover{
     text-decoration: underline;
 }
-/* .tagName{
+@media only screen and (max-width:600px){
+    .header{
+        height: 38px;
+        width: 327px;
+        margin-bottom: 36px; 
+    }
+    .searchIcon{
+        height: 24px;
+        width: 24px;
+        margin-top: 18px;
+        margin-left: 0px;
+        position: absolute;
+        z-index: 1;
+    }
+    .searchFieldLight{
+        height: 60px;
+        width: 327px;
+        padding-right: 84px;
+        padding-left: 45px;
+        font-size: 13px;
+        line-height: 25px;  
+    }
+    .serchFieldDark{
+        height: 60px;
+        width: 327px;
+        padding-right: 84px;
+        padding-left: 45px;
+        font-size: 13px;
+        line-height: 25px; 
+       
+    }
+    
+    .searchButton{
+        margin-left: -92px;
+        width: 84px;
+        height: 46px;  
+    }
+    .cardLight{
+        height: 517px;
+        width: 327px;
+        padding: 24px; 
+    }
+    .cardDark{
+        height: 517px;
+        width: 327px;
+        padding: 24px; 
+    }
+    .nameAndDateLight{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start ;
+        align-items: flex-start;
+       
+    }
+    .nameAndDateDark{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start ;
+        align-items: flex-start;
+       
+    }
+   
+    .nameAndDateLight p {
+       margin-top: 20px;
+        font-size: 13px;
+        line-height: 19px;
+        
+    }
+    .nameAndDateDark p {
+        margin-top: 20px;
+         font-size: 13px;
+         line-height: 19px;
+         
+     }
+     .avatar{
+        height: 70px;
+        width: 70px;
+        margin-bottom: 39px;
+        margin-right: 19px;
+    }
+    .name{
+       margin-right: 0px;
+        font-size: 16px;
+        line-height: 324px;
+    
+    }
+    .tagName{
     margin-top: -40px;
     font-size: 13px;
     line-height: 19px;
@@ -405,4 +491,6 @@ additionalInfoSection{
     display: grid;
     grid-template-columns: auto;
     gap: 12px;
-} */
+}
+
+}
