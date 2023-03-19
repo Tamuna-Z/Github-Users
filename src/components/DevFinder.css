@@ -305,6 +305,70 @@ body{
     color: #fff;
     /* text-transform: uppercase; */
 }
+.additionalInfoLight{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #4B6A9B;     
+}
+.additionalInfoDark{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #fff;     
+}
+.withoutAdditionalInfoLight{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #A4B4cc;     
+}
+.withoutAdditionalInfoDark{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #fff;     
+}
+.additionalInfoSection{
+    margin-top: 37px;
+    display: grid;
+    grid-template-columns:auto auto;
+    gap: 19px;
+}
+.location{
+    height: 20px;
+    width: 13.7px;
+    margin-right: 25px;
+}
+.twitter{
+    height: 16px;
+    width: 19px;
+    margin-right: 19px;
+}
+.link{
+    height: 20px;
+    width: 19px;
+    margin-right: 19px;
+}
+.company{
+    height: 20px;
+    width: 19px;
+    margin-right: 19px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
 /* .tagName{
     margin-top: -40px;
     font-size: 13px;
