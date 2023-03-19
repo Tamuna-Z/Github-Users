@@ -142,9 +142,203 @@ body{
     color: #ffffff;
     cursor: pointer;
 }
+.notFound{
+    position:absolute;
+    margin-top: -45px;
+    margin-left: 498px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #F74646;
+}
+.cardLight{
+    height: 419px;
+    width: 730px;
+    padding: 48px;
+    border-radius: 15px;
+    display: flex;
+    background-color: #FEFEFE;
+    box-shadow: 0px 16px 30px -10px rgba(70 ,96, 187, 0.198567);
+}
+.cardDark{
+    height: 419px;
+    width: 730px;
+    padding: 48px;
+    border-radius: 15px;
+    background-color: #1E2A47;
+    box-shadow: 0px 16px 30px -10px rgba(70 ,96, 187, 0.198567);
+
+}
+.nameAndDateLight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #2B3442;
+}
+.nameAndDateDark{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nameAndDateDark h1{
+    color: #ffffff;   
+}
+.nameAndDateLight p {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: right;
+    color: #697C9A;
+}
+.nameAndDateDark p {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: right;
+    color: #ffffff;
+}
 .avatar{
     height: 117px;
     width: 117px;
     border-radius: 100%;
     margin-right: 37px;
 }
+.name{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    color: #2B3442;
+}
+.tagName{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0079FF;
+}
+.bioLoght{
+    margin-bottom: 32px;
+    margin-top: 20px;
+    mix-blend-mode: normal;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #4B6A9B;
+    opacity: 0.75px;
+}
+.bioDark{
+    margin-bottom: 32px;
+    margin-top: 20px;
+    mix-blend-mode: normal;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFF;
+    opacity: 0.75px;
+}
+.miniCardLight{
+    height: 85px;
+    width: 480px;
+    border-radius: 10px;
+    background-color: #F6F8FF;
+    display: flex;
+    justify-content: space-around;
+}
+.miniCardDark{
+    height: 85px;
+    width: 480px;
+    border-radius: 10px;
+    background-color: #141D2F;
+    display: flex;
+    justify-content: space-around;
+}
+
+.miniCardTextLight{
+    margin-top: 15px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: #4B6A9B;
+
+}
+.miniCardTextDark{
+    margin-top: 15px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: #FFF;
+
+}
+.numbersLight{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2B3442;
+    /* text-transform: uppercase; */
+
+}
+.numbersDark{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #fff;
+    /* text-transform: uppercase; */
+}
+/* .tagName{
+    margin-top: -40px;
+    font-size: 13px;
+    line-height: 19px;
+}
+.bioLight{
+    margin-bottom: 23px;
+    margin-top: 63px;
+    margin-left: -89px;
+    height: 75px;
+    width: 279px;
+}
+.bioDark{
+    margin-bottom: 23px;
+    margin-top: 63px;
+    margin-left: -89px;
+    height: 75px;
+    width: 279px;
+
+}
+.miniCardLight{
+    margin-left: -89px;
+    height: 85px;
+    width: 279px;
+}
+.miniCardDark{
+    margin-left: -89px;
+    height: 85px;
+    width: 279px;
+}
+additionalInfoSection{
+    margin-left: -89px;
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 12px;
+} */
