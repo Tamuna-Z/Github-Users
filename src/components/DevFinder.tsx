@@ -80,11 +80,12 @@ function DevFinder() {
           setCompany(data.company);
         }
       })
-    );
+    )
+  };
 
     const darkMode = () => {
       setDarkModeB(!darkModeB);
-    };
+    
   }
 
   return (
@@ -93,7 +94,10 @@ function DevFinder() {
         <h1 className={darkModeB ? "devFinderLight" : "devFinderDark"}>
           devFinder
         </h1>
-        <div className="d-flex darkMode">
+        <div className="d-flex darkMode"
+        onClick={darkMode}
+        
+        >
           {darkModeB ? (
             <div className="d-flex">
               <h1 className="dark">Dark</h1>
@@ -131,7 +135,9 @@ function DevFinder() {
             <h1 className="name">The {name}</h1>
             <p>
               Joined{joined.substr(8, joined.length - 18)}
+              
               {month[parseInt(joined.substr(5, joined.length - 13)) - 1]}
+
               {joined.substr(0, joined.length - 16)}
             </p>
           </div>

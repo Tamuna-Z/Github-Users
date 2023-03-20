@@ -13,16 +13,16 @@ body{
 } */
 
 .d-flex{
-    font-display: flex;
+    display: flex;
 }
-/* .backgroundLight{
+.backgroundLight{
     height: 100vh;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #F6F8FF;
-} */
+}
 .backgroundDark{
     height: 100vh;
     display:flex;
