@@ -449,12 +449,12 @@ a:hover{
         margin-bottom: 39px;
         margin-right: 19px;
     }
-    .name{
+    /* .name{
        margin-right: 0px;
         font-size: 16px;
         line-height: 324px;
     
-    }
+    } */
     .tagName{
     margin-top: -40px;
     font-size: 13px;
@@ -485,7 +485,7 @@ a:hover{
     height: 85px;
     width: 279px;
 }
-additionalInfoSection{
+.additionalInfoSection{
     margin-left: -89px;
     margin-top: 24px;
     display: grid;
