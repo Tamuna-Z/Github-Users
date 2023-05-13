@@ -131,7 +131,7 @@ function DevFinder() {
       <div className={darkModeB ? "d-flex cardLight" : "d-flex cardDark"}>
         <img className="avatar" src={avatar} />
         <div>
-          <div className={darkModeB ? "nameAndDateLight" : "name AndDateDark"}>
+          <div className={darkModeB ? "nameAndDateLight" : "nameAndDateDark"}>
             <h1 className="name">The {name}</h1>
             <p>
               Joined{joined.substr(8, joined.length - 18)}

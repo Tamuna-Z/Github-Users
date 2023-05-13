@@ -107,7 +107,7 @@ body{
     line-height: 25px;
     color: #4B6A9B;
 }
-.serchFieldDark{
+.searchFieldDark{
     height: 69px;
     width: 730px;
     margin-left: -8px;
@@ -163,8 +163,7 @@ body{
     box-shadow: 0px 16px 30px -10px rgba(70 ,96, 187, 0.198567);
 }
 .cardDark{
-    height: 419px;
-    width: 730px;
+    width: fit-content;
     padding: 48px;
     border-radius: 15px;
     background-color: #1E2A47;
@@ -225,7 +224,7 @@ body{
     line-height: 24px;
     color: #0079FF;
 }
-.bioLoght{
+.bioLight{
     margin-bottom: 32px;
     margin-top: 20px;
     mix-blend-mode: normal;
@@ -391,7 +390,7 @@ a:hover{
         font-size: 13px;
         line-height: 25px;  
     }
-    .serchFieldDark{
+    .searchFieldDark{
         height: 60px;
         width: 327px;
         padding-right: 84px;
@@ -408,12 +407,12 @@ a:hover{
     }
     .cardLight{
         height: 517px;
-        width: 327px;
+        width: fit-content;
         padding: 24px; 
     }
     .cardDark{
         height: 517px;
-        width: 327px;
+        width: fit-content;
         padding: 24px; 
     }
     .nameAndDateLight{
@@ -462,16 +461,14 @@ a:hover{
 }
 .bioLight{
     margin-bottom: 23px;
-    margin-top: 63px;
+    margin-top: 34px;
     margin-left: -89px;
-    height: 75px;
     width: 279px;
 }
 .bioDark{
     margin-bottom: 23px;
-    margin-top: 63px;
+    margin-top: 34px;
     margin-left: -89px;
-    height: 75px;
     width: 279px;
 
 }
